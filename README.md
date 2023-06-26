@@ -6,7 +6,7 @@ This Console app is a practical application on Object Oriented Programming and i
 
 ## Digital UML drawing of the zoo
 
-<img src="./Lab06-built-a-Zoo/UML.jpg" style="width: 500px;">
+<img src="./Lab06-built-a-Zoo/UML .jpg" style="width: 500px;">
 
 
 ## Overview of the four OOP principles:

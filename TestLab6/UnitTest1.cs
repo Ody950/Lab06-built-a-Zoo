@@ -37,8 +37,6 @@ namespace TestLab6
 
 
 
-
-
         [Fact]
         /// <summary>
         /// Checks the Sleep(), Sound(), SpeedAverageInKm(), Reproduction(), CoversHerSkin()  Methods that the  Tiger inheritance from Animal, Warm_Blooded,Mammals class.

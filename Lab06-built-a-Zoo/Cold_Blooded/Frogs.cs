@@ -57,7 +57,6 @@ namespace Lab06_built_a_Zoo
         }
 
 
-
         public string CanSee()
         {
             return "Frogs have nearly a 360 degree view due to the positioning and design of their eyes. ";

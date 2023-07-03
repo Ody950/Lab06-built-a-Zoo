@@ -41,8 +41,16 @@ which is simply a collection of data and methods that operate on that data withi
 
 - Encapsulation: The client will not be able to access the actual values in which the animal data is stored, it can only access the public field to get the value that returns to it after processing it.
 
+## interface :
 
+ The problem was that the class could only inherit from one class. We need to find a solution that enables us to implement multiple base classes into the class. The Interfaces solve to use this problem, and Interfaces look like the class in everything but interface only has a definition it can't have an implementation, but it can be implemented via a class. interface allows us to interact with objects based on what they do rather than how. In an easier way. We can define methods in an interface and implement them in a class. This is not only for one class, but it can be for more. This is because it works on the principle of contracting, and each class has its own contract.
+ 
+## Applying OOP into my project:
+In this lab, I use two interfaces, the first one has a method about animal ability to see and this interface implemented in all the animal. And the second one have a method about animal ability to birth and this interface is only implemented in the tiger.
 
-
+ public string CanSee()
+        {
+            return "Frogs have nearly a 360 degree view due to the positioning and design of their eyes. ";
+        }
 
 

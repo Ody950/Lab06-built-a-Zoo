@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab06_built_a_Zoo
 {
-    public class Eagle : Birds
+    public class Eagle : Birds, CanSee
     {
         public override int AverageLengthInMeters { get; set; }
         public override int AverageWeightInMetersInKg { get; set; }
@@ -25,7 +25,7 @@ namespace Lab06_built_a_Zoo
             Legs = 2;
             MaintainingBodyTemperature = true;
             ThreatToHumans = true;
-            FlyAbility = true;
+            FlyAbility = false;
         }
 
         public override string Eat()
@@ -59,5 +59,12 @@ namespace Lab06_built_a_Zoo
         {
             return 3963;
         }
+
+        public string CanSee()
+        {
+            return "Eagles can see things from 20 feet away that we can only see from 5 feet away. ";
+        }
+
+
     }
 }

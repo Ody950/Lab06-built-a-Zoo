@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab06_built_a_Zoo
 {
-    public class Tuna : Fish
+    public class Tuna : Fish, CanSee
     {
         public override int AverageLengthInMeters { get; set; }
         public override int AverageWeightInMetersInKg { get; set; }
@@ -55,5 +55,13 @@ namespace Lab06_built_a_Zoo
         {
             return "The range 33–42 ppt salinity";
         }
+
+
+        public string CanSee()
+        {
+            return "Tuna fish have excellent vision and rely on it to catch prey. They have five copies of a gene for the version of the visual pigment, opsin, that detects green wavelengths. This helps them spot prey in the blue ocean";
+        }
+        
+
     }
 }

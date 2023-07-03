@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab06_built_a_Zoo
 {
-    public class Tiger : Mammals
+    public class Tiger : Mammals, CanBirth, CanSee
     {
         public override int AverageLengthInMeters { get; set; }
         public override int AverageWeightInMetersInKg { get; set; }
@@ -60,5 +60,17 @@ namespace Lab06_built_a_Zoo
         {
             return "The tigers skin covers by hair";
         }
+
+
+        public string CanSee()
+        {
+            return "Tigers can see colors mostly in blue, green, and gray shades.";
+        }
+        public string CanBirth()
+        {
+            return "The length of gestation varies between 93 and 114 days, with an average of 103 days.";
+        }
+
+
     }
 }

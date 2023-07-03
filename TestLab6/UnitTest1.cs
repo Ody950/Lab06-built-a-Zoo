@@ -26,6 +26,7 @@ namespace TestLab6
                 int speedAverage = newEagle.SpeedAverageInKm();
                 string reproduction = newEagle.Reproduction();
                 int flightAltitude = newEagle.FlightAltitudeInMeters();
+                string CanSee = newEagle.CanSee();
 
             //Test
             Assert.Equal("chattering", sound);
@@ -33,6 +34,7 @@ namespace TestLab6
             Assert.Equal(60, speedAverage);
             Assert.Equal("Eagles lay from 1 to 3 eggs", reproduction);
             Assert.Equal(3963, flightAltitude);
+            Assert.Equal("Eagles can see things from 20 feet away that we can only see from 5 feet away. ", CanSee);
         }
 
 
@@ -53,6 +55,8 @@ namespace TestLab6
             int speedAverage = newTiger.SpeedAverageInKm();
             string reproduction = newTiger.Reproduction();
             string coversHerSkin = newTiger.CoversHerSkin();
+            string CanSee = newTiger.CanSee();
+            string CanBirth = newTiger.CanBirth();
 
             //Test
             Assert.Equal("growl, roar", sound);
@@ -60,6 +64,9 @@ namespace TestLab6
             Assert.Equal(57, speedAverage);
             Assert.Equal("tigers give birth to two to four cubs every two years", reproduction);
             Assert.Equal("The tigers skin covers by hair", coversHerSkin);
+            Assert.Equal("Tigers can see colors mostly in blue, green, and gray shades.", CanSee);
+            Assert.Equal("The length of gestation varies between 93 and 114 days, with an average of 103 days.", CanBirth);
+
         }
 
 
@@ -79,14 +86,14 @@ namespace TestLab6
             string sound = newCrocodile.Sound();
             string home = newCrocodile.Home();
             string skinTexture = newCrocodile.SkinTexture();
-           
+            string CanSee = newCrocodile.CanSee();
 
             //Test
             Assert.Equal("Grunt, growl, and hiss", sound);
             Assert.Equal("Crocodiles can sleep with one eye open", sleep);
             Assert.Equal("Live throughout the tropics in Africa, Asia, the Americas and Australia. They are found mainly in freshwater sources like rivers, lakes, marshlands, as well as the brackish water near the mouth of the river.", home);
             Assert.Equal("Crocodile skin texture is rough and scaly.", skinTexture);
-
+            Assert.Equal("Crocodiles have excellent vision both in and out of water.", CanSee);
 
         }
 
@@ -107,14 +114,14 @@ namespace TestLab6
             string sound = newFrogs.Sound();
             string home = newFrogs.Home();
             string lifeCycle = newFrogs.LifeCycle();
-
+            string CanSee = newFrogs.CanSee();
 
             //Test
             Assert.Equal(" A croak", sound);
             Assert.Equal("Frogs may not sleep like humans but they do have periods of rest during which they tuck their limbs under their body, cover their eyes with their nictitating membrane and stay immobile for long periods of time.", sleep);
             Assert.Equal("Frogs thrive in a large number of environments from tropical forests to frozen tundras to deserts. ", home);
             Assert.Equal("The life cycle of a frog from the time the eggs are laid until it is a young frog, the animal stays in water. Only when it is an adult frog will it leave the water. During its life the frog’s body shape changes from egg, to tadpole, to froglet, and then to an adult frog.", lifeCycle);
-
+            Assert.Equal("Frogs have nearly a 360 degree view due to the positioning and design of their eyes. ", CanSee);
 
         }
 
@@ -135,14 +142,14 @@ namespace TestLab6
             string sound = newTuna.Sound();
             string home = newTuna.Home();
             string lifeCycle = newTuna.WaterSalinity();
-
+            string CanSee = newTuna.CanSee();
 
             //Test
             Assert.Equal("clicks", sound);
             Assert.Equal("fishes don't sleep", sleep);
             Assert.Equal("They are found mostly in temperate ocean waters but also in the tropics and cooler coastal regions.", home);
             Assert.Equal("The range 33–42 ppt salinity", lifeCycle);
-
+            Assert.Equal("Tuna fish have excellent vision and rely on it to catch prey. They have five copies of a gene for the version of the visual pigment, opsin, that detects green wavelengths. This helps them spot prey in the blue ocean", CanSee);
 
         }
 

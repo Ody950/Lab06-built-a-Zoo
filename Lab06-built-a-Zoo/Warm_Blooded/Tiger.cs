@@ -61,7 +61,6 @@ namespace Lab06_built_a_Zoo
             return "The tigers skin covers by hair";
         }
 
-
         public string CanSee()
         {
             return "Tigers can see colors mostly in blue, green, and gray shades.";

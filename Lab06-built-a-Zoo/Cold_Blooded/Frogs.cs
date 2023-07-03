@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab06_built_a_Zoo
 {
-    public class Frogs : Amphibians
+    public class Frogs : Amphibians, CanSee
     {
         public override int AverageLengthInMeters { get; set; }
         public override int AverageWeightInMetersInKg { get; set; }
@@ -55,6 +55,18 @@ namespace Lab06_built_a_Zoo
         {
             return "The life cycle of a frog from the time the eggs are laid until it is a young frog, the animal stays in water. Only when it is an adult frog will it leave the water. During its life the frog’s body shape changes from egg, to tadpole, to froglet, and then to an adult frog.";
         }
+
+
+
+        public string CanSee()
+        {
+            return "Frogs have nearly a 360 degree view due to the positioning and design of their eyes. ";
+        }
+
+
+
+
+
 
     }
 }

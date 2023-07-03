@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Lab06_built_a_Zoo
 {
-    public class Crocodile : Reptiles
+    public class Crocodile : Reptiles, CanSee
     {
 
         public override int AverageLengthInMeters { get; set; }
@@ -56,6 +56,11 @@ namespace Lab06_built_a_Zoo
 
         {
             return "Crocodile skin texture is rough and scaly.";
+        }
+
+        public string CanSee()
+        {
+            return "Crocodiles have excellent vision both in and out of water.";
         }
     }
 }

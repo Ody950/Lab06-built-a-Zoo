@@ -47,7 +47,7 @@ which is simply a collection of data and methods that operate on that data withi
  
 ## Applying OOP into my project:
 In this lab, I use two interfaces, the first one has a method about animal ability to see and this interface implemented in all the animal. And the second one have a method about animal ability to birth and this interface is only implemented in the tiger.
-
+```
  public string CanSee()
         {
             return "Frogs have nearly a 360 degree view due to the positioning and design of their eyes. ";

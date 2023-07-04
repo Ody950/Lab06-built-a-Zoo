@@ -1,4 +1,4 @@
-# Lab06 Built a Zoo
+# Lab06 and Lab07 Built a Zoo
 
 ## introduction 
 
